@@ -6,7 +6,6 @@ type User = {
   lastname: string | null;
   email: string;
   userPrivate?: UserPrivate | null;
-  profile_picture?: ProfilePicture;
   is_logged: boolean;
 };
 
