@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import Link from 'components/Link';
+import Link from 'components/link/Link';
 
 type Props = { className?: string };
 

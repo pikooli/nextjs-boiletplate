@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
   return (
     <Layout>
-      <div className="container">
+      <div className="">
         <p>{t('hello')}</p>
         <p>
           {t('todayis')} : {dayjs(new Date()).format('LLLL')}

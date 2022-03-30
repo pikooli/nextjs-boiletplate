@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next';
-import Link from 'components/Link';
+import Link from 'components/link/Link';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import NavLink from 'components/navbar/NavLink';

@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 
   return (
     <Layout>
-      <div className="container">
+      <div className="">
         <p>{t('hellotoabout')}</p>
       </div>
     </Layout>

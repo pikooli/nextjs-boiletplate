@@ -20,3 +20,10 @@
     }
   }
 }
+
+.btn {
+  @apply px-2 border rounded mx-2;
+  &.btn-primary {
+    @apply bg-sky-600 text-white hover:bg-sky-700;
+  }
+}
