@@ -1,6 +1,7 @@
 This is my boiletplate of nextjs with typescript for futur project.
 
-It have tailwind, session cookie, i18n, fontawersome, Prisma, bcryptjs, joi, moment, sass.
+It have tailwind, session cookie, i18n, fontawersome, moment, sass.
+This version is more for front-end project.
 
 ## Getting Started
 

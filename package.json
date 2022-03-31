@@ -2,7 +2,6 @@
   "name": "nextjs-boiletplate",
   "private": true,
   "scripts": {
-    "prepare": "npx prisma generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,15 +14,9 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
-    "@prisma/client": "^3.6.0",
-    "@sendgrid/mail": "^7.6.0",
-    "@types/history": "^5.0.0",
     "babel-plugin-superjson-next": "^0.4.2",
-    "bcryptjs": "^2.4.3",
     "dayjs": "^1.10.7",
     "iron-session": "^6.0.4",
-    "joi": "^17.5.0",
-    "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "next": "12.1.2",
@@ -37,7 +30,6 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.2",
     "@types/lodash": "^4.14.178",
     "@types/node": "17.0.23",
     "@types/react": "17.0.38",
@@ -46,7 +38,6 @@
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.2",
     "postcss": "^8.4.12",
-    "prisma": "^3.8.0",
     "tailwindcss": "^3.0.23",
     "typescript": "4.6.3"
   }
