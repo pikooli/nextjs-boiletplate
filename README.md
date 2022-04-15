@@ -8,13 +8,8 @@ This version is more for front-end project.
 Set ".env"
 
 ```
-DATABASE_URL=""
 SECRET_COOKIE_PASSWORD=""
 COOKIE_NAME=""
-```
-
-```
-prisma generate && prisma db push
 ```
 
 Than run the development server:
