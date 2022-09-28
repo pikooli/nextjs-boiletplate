@@ -7,9 +7,9 @@ It have tailwind, session cookie, i18n, fontawersome, Prisma, bcryptjs, yup, mom
 Set ".env"
 
 ```
-DATABASE_URL=""
-SECRET_COOKIE_PASSWORD=""
-COOKIE_NAME=""
+DATABASE_URL="postgresql://owner@localhost:5432/test"
+SECRET_COOKIE_PASSWORD="123456"
+COOKIE_NAME="cookies"
 ```
 
 ```
