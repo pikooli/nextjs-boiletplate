@@ -1,5 +1,7 @@
 import type { NextPage, GetServerSideProps } from 'next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
 import { useTranslation } from 'next-i18next';
 
 import dayjs from 'lib/dayjs';
@@ -19,7 +21,7 @@ const Home: NextPage = () => {
           {t('todayis')} : {dayjs(new Date()).format('LLLL')}
         </p>
         <button className="btn btn-primary">
-          <FontAwesomeIcon icon="arrow-left" />
+          <FontAwesomeIcon icon={faArrowLeft} />
         </button>
       </div>
     </Layout>
